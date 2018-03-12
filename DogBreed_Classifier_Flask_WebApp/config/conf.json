@@ -1,0 +1,14 @@
+{
+	"model"           : "inceptionv3",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+	"train_path"      : "dataset/flowers_17",
+	"features_path"   : "output/flowers_17/inceptionv3/features.h5",
+	"labels_path"     : "output/flowers_17/inceptionv3/labels.h5",
+	"results"         : "output/flowers_17/inceptionv3/results.txt",
+	"classifier_path" : "output/flowers_17/inceptionv3/classifier.cpickle",
+	"model_weights_path"	  : "saved_models/weights.best.DogXception.hdf5",
+	"test_size"       : 0.20,
+	"seed"            : 9,
+	"num_classes"     : 133
+}
